@@ -1,0 +1,47 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.contain{
+
+    background: black;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+
+}
+.logo{
+    width: 40px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.content .text{
+    width: 40%;
+    color: white;
+}
